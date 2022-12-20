@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FolderEmptyOverride : MonoBehaviour
 {
-
+    
     public bool empty;
     public GameObject parentFolderIcon;
 

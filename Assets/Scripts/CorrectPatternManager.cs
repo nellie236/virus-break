@@ -37,6 +37,7 @@ public class CorrectPatternManager : MonoBehaviour
     int wrongGuessTimer;
     bool wrongGuess;
 
+
     public void Start()
     {
         //spawnPoints = GameObject.FindGameObjectsWithTag("Pattern Spawns");
@@ -72,6 +73,9 @@ public class CorrectPatternManager : MonoBehaviour
         //spawnPointNumber = Random.Range(0, spawnPoints.Length);
         //spawnLocation = spawnPoints[spawnPointNumber];
         //Image input1 = Instantiate(Patterns[Input1].GetComponent<Image>(), spawnLocation.transform.position, Quaternion.identity) as Image;
+
+        
+        
     }
 
     private void Update()
